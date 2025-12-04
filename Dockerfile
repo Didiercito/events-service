@@ -23,6 +23,6 @@ COPY --from=builder /app/dist ./dist
 
 COPY --from=builder /app/tsconfig.json ./tsconfig.json
 
-EXPOSE 4006
+EXPOSE 4007
 
 CMD ["npm", "start"]
